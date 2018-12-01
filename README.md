@@ -351,6 +351,6 @@ The transformation equations used to convert from the “DH Parameters” to phy
 The Kinova JACO website: http://kinovarobotics.com/products/jaco-research-edition/
 
 ## Report a Bug
-Any bugs, issues or suggestions may be sent to ros@kinovarobotics.com.
+Any bugs, issues or suggestions may be sent to support@kinova.ca
 
 
