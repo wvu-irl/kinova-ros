@@ -99,6 +99,10 @@ KinovaArm::KinovaArm(KinovaComm &arm, const ros::NodeHandle &nodeHandle, const s
     arm_joint_number_ = kinova_robotType_[3]-'0';
     robot_mode_ = kinova_robotType_[4];
     finger_number_ = kinova_robotType_[5]-'0';
+
+    if (kinova_robotType_ == "j2n6s300")
+      finger_number_ = 0;        
+        
     joint_total_number_ = arm_joint_number_ + finger_number_;
 
     if (robot_category_=='j') // jaco robot
